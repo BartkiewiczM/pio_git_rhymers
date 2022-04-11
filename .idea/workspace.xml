@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="021b6f02-4fcc-4bf6-83fb-5fbb8ddffcb8" name="Changes" comment="1.2 gitignore" />
+    <list default="true" id="021b6f02-4fcc-4bf6-83fb-5fbb8ddffcb8" name="Changes" comment="zmiana konwencji nazw klas">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/kis/vh/nursery/factory/DefaultRhymersFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/kis/vh/nursery/factory/DefaultRhymersFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/kis/vh/nursery/factory/RhymersFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/kis/vh/nursery/factory/RhymersFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/kis/vh/nursery/RhymersDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/kis/vh/nursery/RhymersDemo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,6 +61,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -132,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649078074921</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="zmiana konwencji nazw klas">
+      <created>1649681835627</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1649681835627</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +166,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.1" />
     <MESSAGE value="1.2 gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.2 gitignore" />
+    <MESSAGE value="zmiana konwencji nazw klas" />
+    <option name="LAST_COMMIT_MESSAGE" value="zmiana konwencji nazw klas" />
   </component>
 </project>
