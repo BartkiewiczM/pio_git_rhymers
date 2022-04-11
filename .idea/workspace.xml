@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="021b6f02-4fcc-4bf6-83fb-5fbb8ddffcb8" name="Changes" comment="1.2 gitignore" />
+    <list default="true" id="021b6f02-4fcc-4bf6-83fb-5fbb8ddffcb8" name="Changes" comment="odpalenie brancha">
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/kis/vh/nursery/FIFORhymer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/kis/vh/nursery/FIFORhymer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/kis/vh/nursery/HanoiRhymer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/kis/vh/nursery/HanoiRhymer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/kis/vh/nursery/defaultCountingOutRhymer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/kis/vh/nursery/defaultCountingOutRhymer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/kis/vh/nursery/RhymersDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/kis/vh/nursery/RhymersDemo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,6 +96,9 @@
       <list>
         <item itemvalue="JUnit.RhymersJUnitTest" />
         <item itemvalue="Application.RhymersDemo" />
+        <item itemvalue="JUnit.RhymersJUnitTest" />
+        <item itemvalue="Application.RhymersDemo" />
+        <item itemvalue="JUnit.RhymersJUnitTest" />
       </list>
     </recent_temporary>
   </component>
@@ -152,6 +160,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.1" />
     <MESSAGE value="1.2 gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.2 gitignore" />
+    <MESSAGE value="odpalenie brancha" />
+    <option name="LAST_COMMIT_MESSAGE" value="odpalenie brancha" />
   </component>
 </project>
