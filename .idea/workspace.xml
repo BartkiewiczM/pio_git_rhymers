@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="021b6f02-4fcc-4bf6-83fb-5fbb8ddffcb8" name="Changes" comment="1.2 gitignore">
+
+    <list default="true" id="021b6f02-4fcc-4bf6-83fb-5fbb8ddffcb8" name="Changes" comment="powrót do zaległego zadania">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/kis/vh/nursery/DefaultCountingOutRhymer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/kis/vh/nursery/DefaultCountingOutRhymer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/kis/vh/nursery/FIFORhymer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/kis/vh/nursery/FIFORhymer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/kis/vh/nursery/HanoiRhymer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/kis/vh/nursery/HanoiRhymer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/kis/vh/nursery/list/IntLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/kis/vh/nursery/list/IntLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +41,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="class-method-naming" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,6 +56,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="27KjFsy05p0rOxgkScz7AJlOP1P" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -57,10 +68,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="JUnit.RhymersJUnitTest">
+  <component name="RunManager" selected="Application.RhymersDemo">
     <configuration name="RhymersDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.kis.vh.nursery.RhymersDemo" />
       <module name="powp-rhymers" />
@@ -89,12 +101,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.RhymersDemo" />
+      <item itemvalue="JUnit.RhymersJUnitTest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RhymersJUnitTest" />
         <item itemvalue="Application.RhymersDemo" />
         <item itemvalue="JUnit.RhymersJUnitTest" />
         <item itemvalue="Application.RhymersDemo" />
+        <item itemvalue="JUnit.RhymersJUnitTest" />
         <item itemvalue="JUnit.RhymersJUnitTest" />
       </list>
     </recent_temporary>
@@ -108,6 +124,9 @@
       <option name="presentableId" value="Default" />
       <updated>1649075577673</updated>
       <workItem from="1649075580085" duration="4802000" />
+      <workItem from="1650889275580" duration="3187000" />
+      <workItem from="1654162424505" duration="735000" />
+      <workItem from="1655468587847" duration="3177000" />
     </task>
     <task id="LOCAL-00001" summary="1.1">
       <created>1649076092796</created>
@@ -137,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649078074921</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="powrót do zaległego zadania">
+      <created>1654162548453</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1654162548453</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,7 +174,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -158,6 +196,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.1" />
     <MESSAGE value="1.2 gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.2 gitignore" />
+    <MESSAGE value="powrót do zaległego zadania" />
+    <option name="LAST_COMMIT_MESSAGE" value="powrót do zaległego zadania" />
   </component>
 </project>
