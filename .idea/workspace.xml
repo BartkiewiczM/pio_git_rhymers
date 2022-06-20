@@ -68,6 +68,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.RhymersDemo" />
+      <item itemvalue="JUnit.RhymersJUnitTest" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RhymersJUnitTest" />
