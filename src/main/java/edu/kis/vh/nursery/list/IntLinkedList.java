@@ -8,16 +8,16 @@ public class IntLinkedList {
 
 	public void push(int i) {
 		if (last == null)
-			setLast(new Node(i));
+			last = (new Node(i));
 		else {
 			last.setNext(new Node(i));
 			last.getNext().setPrev(last);
-			setLast(last.getNext());
+			last =(last.getNext());
 		}
 	}
 
 	public boolean isEmpty() {
-		return getLast() == null;
+		return last  == null;
 	}
 
 	public boolean isFull() {
@@ -34,14 +34,8 @@ public class IntLinkedList {
 		if (isEmpty())
 			return RET_VALUE;
 		int ret = last.getValue();
-		setLast(last.getPrev());
+		last =(last.getPrev());
 		return ret;
 	}
-	public Node getLast() {
-		return last;
-	}
 
-	public void setLast(Node last) {
-		this.last = last;
-	}
 }
