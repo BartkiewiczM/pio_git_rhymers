@@ -3,38 +3,35 @@ package edu.kis.vh.nursery;
 public class DefaultCountingOutRhymer {
 
 
-	private final int[] NUMBERS = new int[12];
+    public static final int MAX = 12;
+    public static final int FINAL = -1;
+    private int[] numbers = new int[MAX];
 
-	private int total = -1;
+    public int total = FINAL;
 
+    public void countIn(int in) {
+        if (!isFull())
+            numbers[++total] = in;
+    }
 
-	public void countIn(int in) {
-		if (!isFull())
-			NUMBERS[++total] = in;
-	}
+    public boolean callCheck() {
+        return total == FINAL;
+    }
 
+    public boolean isFull() {
+        return total == MAX + FINAL;
+    }
 
-	public boolean callCheck() {
-		return total == -1;
-	}
-		
-	public boolean isFull() {
-		return total == 11;
-	}
+    protected int peekaboo() {
+        if (callCheck())
+            return FINAL;
+        return numbers[total];
+    }
 
-	protected int peekaboo() {
-		if (callCheck())
-			return -1;
-		return NUMBERS[total];
-	}
+    public int countOut() {
+        if (callCheck())
+            return FINAL;
+        return numbers[total--];
+    }
 
-	public int countOut() {
-		if (callCheck())
-			return -1;
-		return NUMBERS[total--];
-	}
-  
-	public int getTotal() {
-		return total;
-	}
 }
