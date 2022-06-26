@@ -7,12 +7,12 @@ public class IntLinkedList {
 	private int i;
 
 	public void push(int i) {
-		if (getLast() == null)
+		if (last == null)
 			setLast(new Node(i));
 		else {
-			getLast().setNext(new Node(i));
-			getLast().getNext().setPrev(getLast());
-			setLast(getLast().getNext());
+			last.setNext(new Node(i));
+			last.getNext().setPrev(last);
+			setLast(last.getNext());
 		}
 	}
 
@@ -27,14 +27,14 @@ public class IntLinkedList {
 	public int top() {
 		if (isEmpty())
 			return RET_VALUE;
-		return getLast().getValue();
+		return last.getValue();
 	}
 
 	public int pop() {
 		if (isEmpty())
 			return RET_VALUE;
-		int ret = getLast().getValue();
-		setLast(getLast().getPrev());
+		int ret = last.getValue();
+		setLast(last.getPrev());
 		return ret;
 	}
 	public Node getLast() {
