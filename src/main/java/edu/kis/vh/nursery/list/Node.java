@@ -19,7 +19,7 @@ public class Node {
 
 	/**
 	 * value Getter
-	 * @return
+	 * @return value from this node
 	 */
 	public int getValue() {
 		return value;
@@ -27,7 +27,7 @@ public class Node {
 
 	/**
 	 * node getter
-	 * @return
+	 * @return prev value from node
 	 */
 	public Node getPrev() {
 		return prev;
@@ -43,7 +43,7 @@ public class Node {
 
 	/**
 	 * next getter
-	 * @return
+	 * @return next value from this node
 	 */
 	public Node getNext() {
 		return next;
