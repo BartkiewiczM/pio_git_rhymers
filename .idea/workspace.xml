@@ -39,7 +39,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
-  <component name="RunManager" selected="JUnit.RhymersJUnitTest">
+  <component name="RunManager" selected="Application.RhymersDemo">
     <configuration name="RhymersDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.kis.vh.nursery.RhymersDemo" />
       <module name="powp-rhymers" />
@@ -74,6 +74,8 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RhymersDemo" />
+        <item itemvalue="JUnit.RhymersJUnitTest" />
         <item itemvalue="JUnit.RhymersJUnitTest" />
         <item itemvalue="Application.RhymersDemo" />
       </list>
